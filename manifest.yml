@@ -1,6 +1,6 @@
 ---
 applications:
-- name: test-nodejs
+- name: material-tic-tac-toe
   random-route: true
   buildpacks:
     - nodejs_buildpack
