@@ -1,7 +1,7 @@
 ---
 applications:
 - name: material-tic-tac-toe
-  random-route: true
+  random-route: false
   buildpacks:
     - nodejs_buildpack
   memory: 256M
