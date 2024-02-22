@@ -1,0 +1,9 @@
+---
+applications:
+- name: test-nodejs
+  random-route: true
+  buildpacks:
+    - nodejs_buildpack
+  memory: 256M
+  stack: cflinuxfs4
+  command: npm install && npm i -g @angular/cli && ng serve
