@@ -50,8 +50,8 @@ import { OktaAuth } from '@okta/okta-auth-js';
     {
       provide: OktaAuth,
       useValue: new OktaAuth({
-        issuer: 'https://{yourOktaDomain}/oauth2/default',
-        clientId: '{clientId}',
+        issuer: 'https://dev-80480235.okta.com/oauth2/default',
+        clientId: '0oaf4icegosdxQSz85d7',
       })
     }
   ],
